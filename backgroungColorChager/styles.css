@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#000;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border: 2px solid #000;
+    width: fit-content;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.position {
+    position: relative;
+    top: 40%;
+    left: 30%;
+}
+
+.properties {
+    border: 2px solid #fff;
+    width: 100px;
+    height: 100px;
+}
+
+.purple {
+    background-color: rebeccapurple;
+}
+
+.green {
+    background-color: rgb(4, 243, 143);
+}
+
+.blue {
+    background-color: rgb(94, 10, 62);
+}
+
+.orange-red {
+    background-color: rgb(42, 189, 49);
+}
+
+.olivedrab {
+    background-color: olivedrab;
+}
+
+.orchid {
+    background-color: orchid;
+}
